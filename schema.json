@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "filename": "string",
+        "size": "number",
+        "mtime": "number",
+        "md5": "string",
+        "md5.10240": "string"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "file-hasher",
+  "version": "0.0.1",
+  "description": "Hash files unless hashed",
+  "author": "kba",
+  "license": "MIT",
+  "bugs": "https://github.com/kba/file-hasher/issues",
+  "homepage": "https://github.com/kba/file-hasher#readme",
+  "repository": "https://github.com/kba/file-hasher.git",
+  "keywords": [
+    "md5",
+    "file"
+  ],
+  "main": "index.js",
+  "bin": {
+    "file-hash": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.3.0",
+    "mustache": "^2.3.0",
+    "nedb": "^1.8.0",
+    "nedb-core": "^3.0.6",
+    "yargs": "^7.0.2"
+  }
+}
